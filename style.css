@@ -1,0 +1,139 @@
+/*
+
+*/<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.citySearch input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.citySearch button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.citySearch button:hover {
+  background: #0b7dda;
+}
+
+form.citySearch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #ffffff;
+}
+
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #138ff5;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+.container2 {
+  width:100%;
+  }
+
+#search-left,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#search-left {
+  width: 100s%;
+}
+
+#popcities {
+  width: 80%;
+  vertical-align: auto ;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: 800px; ;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding:  10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.tablinks { 
+  column-width:100% ; 
+  height:40px ;
+   width: 195px ;
+   margin: 0px;
+   padding: 0px
+}
+
+.fiveday {
+
+}

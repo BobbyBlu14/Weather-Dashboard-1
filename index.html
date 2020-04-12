@@ -1,0 +1,142 @@
+<!-- HTML with THREE stylesheets! 
+
+  api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>1.2.9 Exercise</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    
+  </script>
+</head>
+<style type="text/css"></style>
+
+<body>
+  <header>
+
+    <h1>Weather Dashboard</h1>
+
+  </header>
+
+  <div class="row">
+
+    <div class="col-6">
+
+
+      <div class="container2">
+        <div id="sidenav a">
+          <h3>Search by City </h3>
+          <form class="cityearch" action="/action_page.php" style="margin:auto;max-width: width auto" ;>
+            <input type="text" id="searchedCity" placeholder="Search.." name="search2">
+            <button type="submit" id="submit"><i class="fa fa-search"></i></button>
+          </form>
+
+        </div>
+<div id="city-view"></div>
+
+        <section id="popcities">
+          <div class="container2">
+            <h2>Vertical Button Group</h2>
+            <!-- "cities" will Get Dumped Here -->
+    <div id="movies-view"></div>
+            <ul class="list-group list-group-flush">
+              <li type= "button"  class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+      </div>
+
+
+
+      </section>
+    </div>
+
+
+    <div class="col-6">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div id="dailyWeather"></div>
+        </div>
+      </div>
+
+
+      <!---  <div class="card"> -->
+
+      <div class="container2">
+        <h2>5-Day Forcast</h2>
+        <div class="card-deck">
+
+
+          <div class="card text-white bg-primary sm-1" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+          <div class="card text-white bg-primary sm-2" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+
+          <div class="card text-white bg-primary sm-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+            </div>
+          </div>
+          <div class="card text-white bg-primary sm-4" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+            </div> 
+          </div>
+
+            <div class="card text-white bg-primary sm-5" style="max-width: 10rem;">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Primary card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          </section>
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
